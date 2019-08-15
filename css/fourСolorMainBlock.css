@@ -1,0 +1,69 @@
+@font-face{
+  font-family: Fjalla One;
+  src:url(..//fonts/Fjallaone.ttf)
+}
+@font-face{
+  font-family: Sourcesanspro;
+  src:url(..//fonts/Sourcesanspro.ttf)
+}
+
+.fourColorMainBlock{
+  position: absolute;
+  width:1170px;
+  height:672px;
+  margin-left:19.55%;
+  margin-top: 110px;
+  background-color:white;
+  display:flex;
+}
+
+.wrap {
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.firstColorBlock {
+  background-color: rgb(232, 76, 61);
+  width: 585px;
+  height: 336px;
+}
+.secondColorBlock{
+  background-color: rgb(253, 189, 31);
+  width: 585px;
+  height: 336px;
+}
+
+.thirdColorBlock{
+  background-color: rgb(27, 188, 155);
+  width: 585px;
+  height: 336px;
+}
+.fourthColorBlock{
+  background-color: rgb(155, 88, 181);
+  width: 585px;
+  height: 336px;
+}
+
+.bannerTextForColor {
+  font-size: 29px;
+  font-family:  Fjalla One;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.bannerTextTwoForColor {
+  font-size: 16px;
+  font-family: Sourcesanspro;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.bannerTextTwoForColor p {
+  margin-top: 0px; /* Отступ сверху */
+  margin-bottom: 0px; /* Отступ снизу */
+}
+
+.Img{
+margin-left: 245px;
+margin-top: 55px;
+margin-bottom: 30px;
+}
