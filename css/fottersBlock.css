@@ -9,8 +9,8 @@
 
 
 .footerBlock{
-  margin-top:2150px;
-  width: 100%;
+  margin-top:1974px;
+  width: 1920px;
   height: 190px;
   background-color: rgb(36, 89, 99);
   position: absolute;
@@ -19,12 +19,15 @@
   display: flex;
   width: 360px;
   height: 35px;
-  margin-top: 55;
-  margin-left: auto;
+  margin-top: 40px;
+  margin-left: 775px;
   margin-right: auto;
 }
 .space-between {
   justify-content: space-between;
+}
+.imgFacebook img{
+  margin-right: -10px;
 }
 .info{
   padding-top: 10px;
@@ -34,8 +37,9 @@
 }
 
 .lineBorderFotter{
-  width: 280px;
+  width: 284px;
   height:28px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   border-bottom:1px solid rgb(56, 125, 137);
@@ -48,11 +52,11 @@
   color:white;
   font-family: Sourcesanspro;
 }
+
 .infoSite{
-  margin-top: 36px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
+  margin-top: 33px;
+  margin-left:515px;
+  width: 910px;
   font-size: 16px;
   font-family: Sourcesanspro;
   color: rgb(255, 255, 255);

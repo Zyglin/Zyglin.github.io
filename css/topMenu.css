@@ -6,9 +6,10 @@
 body {margin:0}
 ul {
   list-style: none;
-  margin: auto;
-  width: 1200px;
-  height: 80px;
+  margin-left:  376px;
+  margin-right:  auto;
+  width: 1168px;
+  height: 78px;
 }
 a {
   text-decoration: none;
@@ -31,8 +32,8 @@ nav {
     justify-content: flex-end;
 }
 .toMenu li {
-    margin-top: 30px;
-    margin-right: 36px;
+    margin-top: 27px;
+    margin-right: 32.5px;
 }
 .toMenu a {
   display: block;
@@ -45,8 +46,8 @@ nav {
 .NameSite
 {
   font-family: Fjalla One;
-  margin-top:32px;
-  margin-right:55%;
+  margin-top:26px;
+  margin-right:685px;
   width: 150px;
   color:white;
   font-size:25px;

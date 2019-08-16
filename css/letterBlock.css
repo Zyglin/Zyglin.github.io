@@ -16,6 +16,8 @@
 .letterImg{
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2px;
+  padding-top: 3px;
 }
 .column {
   flex-direction:column;
@@ -25,11 +27,11 @@
   font-family:  Fjalla One;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 27px;
 }
 .line{
-  margin-top: 16px;
-  width: 500px;
+  margin-top: 11px;
+  width: 510px;
   height: 17px;
   margin-left: auto;
   margin-right: auto;
@@ -37,13 +39,14 @@
 }
 .lineBorder{
   width: 80px;
-  height:14px;
+  height:13px;
   border-bottom:1px solid rgb(56, 125, 137);
 }
 
 .lineWithBannerText{
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2px;
   width: 305px;
   font-size: 21px;
   font-family: Fjalla One;
@@ -53,14 +56,14 @@
 .InputBlocks{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 43px;
   width: 570px;
   height: 45px;
   display: flex;
 }
 .inputBlock{
   width: 270px;
-  height: 44px;
+  height: 46px;
   background-color: rgb(36, 89, 99);
   border:1px solid rgb(56, 125, 137);
   color: white;
@@ -74,12 +77,12 @@
 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 31px;
 }
 .textArea{
   resize: none;
   width: 570px;
-  height: 130px;
+  height: 126px;
   background-color: rgb(36, 89, 99);
   border:1px solid rgb(56, 125, 137);
   color: white;
@@ -89,15 +92,16 @@
 .imageSubmit{
   background-image: url(../img/border_green_aligned.png);
   background-size: cover;
-  width:100px;
-  height:45px;
-  margin-left: auto;
+  width:109px;
+  height:49px;
+  margin-left: 535px;
   margin-right: auto;
-  margin-top: 35px;
+  margin-top: 28px;
   color: white;
 }
 .linkDivSubmit{
 padding-top: 12px;
+padding-right: 1px;
 text-align: center;
 font-size: 14px;
 }
