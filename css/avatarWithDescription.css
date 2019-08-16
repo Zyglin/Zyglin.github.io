@@ -1,0 +1,82 @@
+@font-face{
+  font-family: Fjalla One;
+  src:url(..//fonts/Fjallaone.ttf)
+}
+@font-face{
+  font-family: Sourcesanspro;
+  src:url(..//fonts/Sourcesanspro.ttf)
+}
+
+
+.blockFaceDescription{
+  width:1170px;
+  height:495px;
+  margin-top: 60px;
+  display:flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.blockFace{
+  background-color: rgb(36, 89, 99);
+  width: 370px;
+  height: 495px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.borderRed{
+  border-top: 5px solid rgb(232, 76, 61);
+}
+.borderYellow{
+  border-top: 5px solid rgb(253, 189, 31);
+}
+.borderGreen{
+  border-top: 5px solid rgb(27, 188, 155);
+}
+.ImgFace{
+  margin-left: 95px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.bannerTextForBlockFace {
+  font-size: 16px;
+  font-family: Sourcesanspro;
+  line-height: 1.625;
+  text-align: center;
+  color: rgb(118, 178, 190);
+}
+
+.bannerTextForBlockFace p {
+  margin-top: 0px; /* Отступ сверху */
+  margin-bottom: 0px; /* Отступ снизу */
+}
+
+.imageReadyForFirstAvatar{
+  background-size: cover;
+  width:100px;
+  height:45px;
+  margin:auto;
+  color: white;
+  margin-top:37px;
+}
+.readyRed{
+  background-image: url(../img/border_red.png);
+}
+.readyYellow{
+  background-image: url(../img/border_yellow.png);
+}
+.readyGreen{
+background-image: url(../img/border_green.png);
+}
+.linkDivAvatar{
+padding-left: 16px;
+padding-top: 8px;
+}
+
+.linkReadMoreAvatar:visited{
+  color: white;
+}

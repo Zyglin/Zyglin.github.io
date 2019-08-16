@@ -1,0 +1,53 @@
+@font-face{
+  font-family: Fjalla One;
+  src:url(..//fonts/Fjallaone.ttf)
+}
+
+body {margin:0}
+ul {
+  list-style: none;
+  margin: auto;
+  width: 1200px;
+  height: 80px;
+}
+a {
+  text-decoration: none;
+  font-family: Fjalla One;
+}
+i {
+  margin-right: 10px;
+}
+nav {
+  display: block;
+  margin: 0 auto;
+}
+
+.toMenu ul {
+    background: rgba(49, 96, 107, 0.4);
+    border: 1px solid rgba(42, 108, 120, 0.5);
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.toMenu li {
+    margin-top: 30px;
+    margin-right: 36px;
+}
+.toMenu a {
+  display: block;
+  padding: 2px;
+  font-size: 17px;
+  color: white;
+}
+.toMenu a:hover {background: #ADC0CE}
+
+.NameSite
+{
+  font-family: Fjalla One;
+  margin-top:32px;
+  margin-right:55%;
+  width: 150px;
+  color:white;
+  font-size:25px;
+}
