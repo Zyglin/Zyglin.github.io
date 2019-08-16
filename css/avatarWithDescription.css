@@ -76,6 +76,15 @@ background-image: url(../img/border_green.png);
 padding-left: 16px;
 padding-top: 8px;
 }
+#linkReadMoreAvatarIdOne{
+  color: white;
+}
+#linkReadMoreAvatarIdTwo{
+  color: white;
+}
+#linkReadMoreAvatarIdThree{
+  color: white;
+}
 
 .linkReadMoreAvatar:visited{
   color: white;
