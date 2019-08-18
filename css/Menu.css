@@ -48,11 +48,10 @@ nav {
 }
 .toMenu a:hover {background: #ADC0CE}
 
-.NameSite
-{
+li#NameSite{
   font-family: Fjalla One;
-  margin-top:26px;
-  margin-right:685px;
+  margin-top: 26px;
+  padding-right:652px;
   width: 150px;
   color:white;
   font-size:25px;
@@ -120,12 +119,7 @@ nav {
   margin-top: 18px;
 }
 
-.linkDiv{
-font-size: 17px;
-font-family: Fjalla One;
-padding-left: 38px;
-padding-top: 18px;
-}
+
 #linkReadMoreId{
  color:white;
 
@@ -236,7 +230,7 @@ padding-top: 18px;
   background-image: url(../img/border_green_aligned.png);
   background-size: cover;
   width:109px;
-  height:49px;
+  height:50px;
   margin-left: 535px;
   margin-right: auto;
   margin-top: 28px;
@@ -357,10 +351,7 @@ margin-bottom: 25px;
   color:rgb(253, 189, 31);
   font-family: Sourcesanspro;
 }
-#infoSiteLinkTwo{
-  color:white;
-  font-family: Sourcesanspro;
-}
+
 #infoSiteLinkFive{
   color:white;
   font-family: Sourcesanspro;
@@ -442,23 +433,56 @@ margin-bottom: 25px;
 .readyGreen{
 background-image: url(../img/border_green.png);
 }
-.linkDivAvatar{
-padding-left: 20px;
-padding-top: 10px;
-font-size: 14px;
-font-family: Fjalla One;
-letter-spacing: 0.3px;
-}
-#linkReadMoreAvatarIdOne{
+
+
+.buttonSubmitHeader{
+  font-size: 17px;
+  font-family: Fjalla One;
   color: white;
-}
-#linkReadMoreAvatarIdTwo{
-  color: white;
-}
-#linkReadMoreAvatarIdThree{
-  color: white;
+  cursor:pointer;
+  width: 143px;
+  height: 45px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  margin-top: 6px;
+  margin-left: 3px;
+  border:none;
 }
 
-.linkReadMoreAvatar:visited{
+.buttonSubmitAvatar{
+  margin-top: 1px;
   color: white;
+  font-size: 14px;
+  cursor:pointer;
+  width: 102px;
+  height: 35px;
+  font-family: Fjalla One;
+  border: none;
+  letter-spacing: 0.3px;
+}
+
+.buttonSubmit{
+  color: white;
+  font-size: 14px;
+  cursor:pointer;
+  margin-top: 5px;
+  margin-left: 4px;
+  width: 100px;
+  height: 32px;
+  font-family: Fjalla One;
+  border: none;
+}
+
+.redForButton{
+  background-color: rgb(232, 76, 61);
+}
+.yellowForButton{
+  background-color: rgb(253, 189, 31);
+}
+.lightGreenForButton{
+  background-color: rgb(27, 188, 155);
+}
+
+.darkGreenForButton{
+background-color: rgb(36, 89, 99);
 }
