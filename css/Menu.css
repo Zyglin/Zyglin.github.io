@@ -1,13 +1,13 @@
 
 
 @font-face{
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   src:url(..//fonts/Fjallaone.ttf)
 }
 
-@font-face{
-  font-family: Sourcesanspro;
-  src:url(..//fonts/Sourcesanspro.ttf)
+@font-face {
+    font-family: Sourcesanspro,"Simpson",Tahoma;
+    src: url(..//fonts/Sourcesanspro.ttf)
 }
 
 
@@ -21,7 +21,7 @@ ul {
 }
 a {
   text-decoration: none;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
 }
 i {
   margin-right: 10px;
@@ -32,16 +32,16 @@ nav {
 }
 
 .toMenu ul {
-    background: rgba(49, 96, 107, 0.4);
-    border: 1px solid rgba(42, 108, 120, 0.5);
-    overflow: hidden;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
+  background: rgba(49, 96, 107, 0.4);
+  border: 1px solid rgba(42, 108, 120, 0.5);
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 .toMenu li {
     margin-top: 27px;
-    margin-right: 32.5px;
+    margin-right: 33px;
 }
 .toMenu a {
   display: block;
@@ -51,20 +51,20 @@ nav {
 }
 .toMenu a:hover {background: #ADC0CE}
 
-li#NameSite{
-  font-family: Fjalla One;
+li#NameSite {
+  font-family: Fjalla One,"Simpson",Tahoma;
   margin-top: 26px;
-  padding-right:652px;
+  padding-right: 652px;
   width: 150px;
-  color:white;
-  font-size:25px;
+  color: white;
+  font-size: 25px;
 }
-.mainDiv{
-  background: url(../img/mainBackground.png);
+.mainDiv {
+  background-color: rgb(41,96,107);
   background-size: cover;
   background-position: center center;
-  width:1920px;
-  height:2770px;
+  width: 1920px;
+  height: 2770px;
 }
 .underTheMenu{
   width: 100%;
@@ -76,16 +76,6 @@ li#NameSite{
   width: 1820px;
   height: 600px;
 }
-.Layer_1 {
-  background-image: url("Layer 1.png");
-  opacity: 0.4;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1820px;
-  height: 805px;
-  z-index: 57;
-}
 
 .elForBanner
 {
@@ -96,21 +86,21 @@ li#NameSite{
   color:black;
 }
 
-.bannerTextOne{
- text-align: center;
-  font-family: Fjalla One;
+.bannerTextOne {
+  text-align: center;
+  font-family: Fjalla One,,"Simpson",Tahoma;
   line-height: 1.2;
   color: white;
-  font-size:41px;
+  font-size: 41px;
   letter-spacing: 5px;
 }
-.bannerTextTwo{
+.bannerTextTwo {
   text-align: center;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   margin-top: 17px;
   color: white;
-  font-size:30px;
-  letter-spacing: 5.5px;
+  font-size: 30px;
+  letter-spacing: 5px;
 }
 
 .imageReady{
@@ -133,29 +123,28 @@ li#NameSite{
 
 .bannerTextMainWinow {
   font-size: 29px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin-top:75px;
-  margin-left:483px;
+  margin-top: 75px;
+  margin-left: 483px;
 }
 .secondBannerTextMainWinow {
   font-size: 21px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin-top:10px;
-  margin-left:387px;
+  margin-top: 10px;
+  margin-left: 387px;
 }
-.letterBlock{
-  width:1170px;
-  height:600px;
+.letterBlock {
+  width: 1170px;
+  height: 600px;
   margin-top: 80px;
   display: flex;
+  align-items: center;
 }
 .letterImg{
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 2px;
   padding-top: 3px;
 }
@@ -164,18 +153,17 @@ li#NameSite{
 }
 .bannerTextForLetterBlock {
   font-size: 29px;
-  font-family:  Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 27px;
 }
-.line{
+.line {
   margin-top: 11px;
   width: 510px;
   height: 17px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
+  justify-content: space-between;
 }
 .lineBorder{
   width: 80px;
@@ -183,59 +171,51 @@ li#NameSite{
   border-bottom:1px solid rgb(56, 125, 137);
 }
 
-.lineWithBannerText{
-  margin-left: auto;
-  margin-right: auto;
+.lineWithBannerText {
   padding-left: 2px;
   width: 305px;
   font-size: 21px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: white;
   text-align: center;
 }
 .InputBlocks{
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 43px;
   width: 570px;
   height: 45px;
   display: flex;
 }
-.inputBlock{
+.inputBlock {
   width: 270px;
   height: 46px;
   background-color: rgb(36, 89, 99);
-  border:1px solid rgb(56, 125, 137);
+  border: 1px solid rgb(56, 125, 137);
   color: white;
   font-size: 20px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
 }
 .space-between {
   justify-content: space-between;
 }
 .textAreaBlock
 {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 31px;
 }
-.textArea{
+.textArea {
   resize: none;
   width: 570px;
   height: 126px;
   background-color: rgb(36, 89, 99);
-  border:1px solid rgb(56, 125, 137);
+  border: 1px solid rgb(56, 125, 137);
   color: white;
   font-size: 20px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
 }
 .imageSubmit{
   background-image: url(../img/border_green_aligned.png);
   background-size: cover;
   width:109px;
   height:50px;
-  margin-left: 535px;
-  margin-right: auto;
   margin-top: 28px;
   color: white;
 }
@@ -289,30 +269,29 @@ font-size: 14px;
 
 .bannerTextForColor {
   font-size: 29px;
-  font-family:  Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 6px;
 }
 .bannerTextTwoForColor {
   font-size: 16px;
-  font-family: Sourcesanspro;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   margin-right: 13px;
   text-align: center;
   line-height: 1.2;
-
 }
 
 .bannerTextTwoForColor p {
-  margin-top: 0px; /* Отступ сверху */
-  margin-bottom: 0px; /* Отступ снизу */
+  margin-top: 0px; 
+  margin-bottom: 0px;
 }
 
 .Img{
-margin-left: 243px;
-margin-top: 58px;
-margin-bottom: 25px;
+  margin-left: 243px;
+  margin-top: 58px;
+  margin-bottom: 25px;
 }
 .footerBlock{
   margin-top:1974px;
@@ -323,53 +302,55 @@ margin-bottom: 25px;
 }
 .blockIndo{
   display: flex;
+  align-items:center;
   width: 360px;
   height: 35px;
   margin-top: 40px;
   margin-left: 775px;
-  margin-right: auto;
 }
 .space-between {
   justify-content: space-between;
 }
-.imgFacebook img{
-  margin-right: -10px;
-}
-.info{
+
+.info {
   padding-top: 10px;
   font-size: 15px;
-  font-family: Sourcesanspro;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
 }
 
-.lineBorderFotter{
-  width: 284px;
-  height:28px;
+.lineCenterBorder {
+  display: flex;
+  justify-content: center;
   margin-top: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom:1px solid rgb(56, 125, 137);
-}
-#infoSiteLink{
-  color:rgb(253, 189, 31);
-  font-family: Sourcesanspro;
 }
 
-#infoSiteLinkFive{
-  color:white;
-  font-family: Sourcesanspro;
+.lineBorderFotter {
+  
+  width: 284px;
+  height: 28px;
+  border-bottom: 1px solid rgb(56, 125, 137);
 }
-#infoSiteLinkSix{
-  color:white;
-  font-family: Sourcesanspro;
+#infoSiteLink {
+  color: rgb(253, 189, 31);
+  font-family: Sourcesanspro,"Simpson",Tahoma;
 }
 
-.infoSite{
+#infoSiteLinkFive {
+  color: white;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
+}
+#infoSiteLinkSix {
+  color: white;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
+}
+
+.infoSite {
   margin-top: 33px;
-  margin-left:515px;
+  margin-left: 515px;
   width: 910px;
   font-size: 16px;
-  font-family: Sourcesanspro;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
 }
 .blockFaceDescription{
@@ -408,15 +389,15 @@ margin-bottom: 25px;
 }
 .bannerTextForBlockFace {
   font-size: 16px;
-  font-family: Sourcesanspro;
+  font-family: Sourcesanspro,"Simpson",Tahoma;
   line-height: 1.625;
   text-align: center;
   color: rgb(118, 178, 190);
 }
 
 .bannerTextForBlockFace p {
-  margin-top: 0px; /* Отступ сверху */
-  margin-bottom: 0px; /* Отступ снизу */
+  margin-top: 0px; 
+  margin-bottom: 0px; 
 }
 
 .imageReadyForFirstAvatar{
@@ -434,46 +415,46 @@ margin-bottom: 25px;
   background-image: url(../img/border_yellow.png);
 }
 .readyGreen{
-background-image: url(../img/border_green.png);
+  background-image: url(../img/border_green.png);
 }
 
 
-.buttonSubmitHeader{
+.buttonSubmitHeader {
   font-size: 17px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   color: white;
-  cursor:pointer;
+  cursor: pointer;
   width: 143px;
   height: 45px;
   background-color: Transparent;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   margin-top: 6px;
   margin-left: 3px;
-  border:none;
+  border: none;
 }
 
-.buttonSubmitAvatar{
+.buttonSubmitAvatar {
   margin-top: 1px;
   color: white;
   font-size: 14px;
-  cursor:pointer;
+  cursor: pointer;
   width: 102px;
   height: 35px;
-  font-family: Fjalla One;
+  font-family: Fjalla One,"Simpson",Tahoma;
   border: none;
   letter-spacing: 0.3px;
 }
 
-.buttonSubmit{
+.buttonSubmit {
   color: white;
   font-size: 14px;
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 5px;
   margin-left: 4px;
   width: 100px;
   height: 32px;
-  font-family: Fjalla One;
-  border: none;
+  font-family: Fjalla One,"Simpson",Tahoma;
+    border: none;
 }
 
 .redForButton{
@@ -487,5 +468,5 @@ background-image: url(../img/border_green.png);
 }
 
 .darkGreenForButton{
-background-color: rgb(36, 89, 99);
+  background-color: rgb(36, 89, 99);
 }
