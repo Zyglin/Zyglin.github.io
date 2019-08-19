@@ -1,17 +1,19 @@
 
 
 @font-face{
-  font-family: Fjalla One,"Simpson",Tahoma;
+  font-family: Fjalla One;
   src:url(..//fonts/Fjallaone.ttf)
 }
 
 @font-face {
-    font-family: Sourcesanspro,"Simpson",Tahoma;
+    font-family: Sourcesanspro;
     src: url(..//fonts/Sourcesanspro.ttf)
 }
 
 
-body {margin:0}
+body {margin:0;
+  font-family: Fjalla One,"Simpson",Tahoma;
+}
 ul {
   list-style: none;
   margin-left:  376px;
@@ -21,7 +23,6 @@ ul {
 }
 a {
   text-decoration: none;
-  font-family: Fjalla One,"Simpson",Tahoma;
 }
 i {
   margin-right: 10px;
@@ -29,6 +30,10 @@ i {
 nav {
   display: block;
   margin: 0 auto;
+}
+
+button {
+    font-family: Fjalla One,"Simpson",Tahoma;
 }
 
 .toMenu ul {
@@ -52,7 +57,6 @@ nav {
 .toMenu a:hover {background: #ADC0CE}
 
 li#NameSite {
-  font-family: Fjalla One,"Simpson",Tahoma;
   margin-top: 26px;
   padding-right: 652px;
   width: 150px;
@@ -88,7 +92,6 @@ li#NameSite {
 
 .bannerTextOne {
   text-align: center;
-  font-family: Fjalla One,,"Simpson",Tahoma;
   line-height: 1.2;
   color: white;
   font-size: 41px;
@@ -96,25 +99,25 @@ li#NameSite {
 }
 .bannerTextTwo {
   text-align: center;
-  font-family: Fjalla One,"Simpson",Tahoma;
   margin-top: 17px;
   color: white;
   font-size: 30px;
   letter-spacing: 5px;
 }
 
-.imageReady{
+.imageReady {
+  font-family: Fjalla One,"Simpson",Tahoma;
   background-image: url(../img/btnReady.png);
   background-size: cover;
-  width:150px;
-  height:62px;
-  margin-left:380px;
+  width: 150px;
+  height: 62px;
+  margin-left: 380px;
   margin-top: 18px;
 }
 
 
 #linkReadMoreId{
- color:white;
+  color:white;
 
 }
 .linkReadMore:visited{
@@ -123,7 +126,6 @@ li#NameSite {
 
 .bannerTextMainWinow {
   font-size: 29px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 75px;
@@ -131,7 +133,6 @@ li#NameSite {
 }
 .secondBannerTextMainWinow {
   font-size: 21px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 10px;
@@ -153,7 +154,6 @@ li#NameSite {
 }
 .bannerTextForLetterBlock {
   font-size: 29px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 27px;
@@ -175,7 +175,6 @@ li#NameSite {
   padding-left: 2px;
   width: 305px;
   font-size: 21px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: white;
   text-align: center;
 }
@@ -192,7 +191,6 @@ li#NameSite {
   border: 1px solid rgb(56, 125, 137);
   color: white;
   font-size: 20px;
-  font-family: Fjalla One,"Simpson",Tahoma;
 }
 .space-between {
   justify-content: space-between;
@@ -209,7 +207,6 @@ li#NameSite {
   border: 1px solid rgb(56, 125, 137);
   color: white;
   font-size: 20px;
-  font-family: Fjalla One,"Simpson",Tahoma;
 }
 .imageSubmit{
   background-image: url(../img/border_green_aligned.png);
@@ -269,7 +266,6 @@ font-size: 14px;
 
 .bannerTextForColor {
   font-size: 29px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 6px;
@@ -421,7 +417,6 @@ font-size: 14px;
 
 .buttonSubmitHeader {
   font-size: 17px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   color: white;
   cursor: pointer;
   width: 143px;
@@ -440,7 +435,6 @@ font-size: 14px;
   cursor: pointer;
   width: 102px;
   height: 35px;
-  font-family: Fjalla One,"Simpson",Tahoma;
   border: none;
   letter-spacing: 0.3px;
 }
@@ -453,8 +447,7 @@ font-size: 14px;
   margin-left: 4px;
   width: 100px;
   height: 32px;
-  font-family: Fjalla One,"Simpson",Tahoma;
-    border: none;
+  border: none;
 }
 
 .redForButton{
