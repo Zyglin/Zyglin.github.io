@@ -1,8 +1,6 @@
-
-
-@font-face{
+@font-face {
   font-family: Fjalla One;
-  src:url(..//fonts/Fjallaone.ttf)
+  src: url(..//fonts/Fjallaone.ttf)
 }
 
 @font-face {
@@ -10,32 +8,36 @@
   src: url(..//fonts/Sourcesanspro.ttf)
 }
 
-
 body {
-    margin: 0;
-    font-family: Fjalla One,"Simpson",Tahoma;
-    background-color: rgb(41,96,107);
+  margin: 0;
+  font-family: Fjalla One, "Simpson", Tahoma;
+  background-color: rgb(41, 96, 107);
 }
+
 ul {
   list-style: none;
-  margin-left:  376px;
-  margin-right:  auto;
+  margin-left: 376px;
+  margin-right: auto;
   width: 1168px;
   height: 78px;
 }
+
 a {
   text-decoration: none;
 }
+
 i {
   margin-right: 10px;
 }
-nav {
-  display: block;
-  margin: 0 auto;
-}
 
 button {
-  font-family: Fjalla One,"Simpson",Tahoma;
+  font-family: Fjalla One, "Simpson", Tahoma;
+}
+
+.toMenu {
+  display: flex;
+  align-items: center;
+  height: 78px;
 }
 
 .toMenu ul {
@@ -46,17 +48,22 @@ button {
   display: flex;
   justify-content: flex-end;
 }
+
 .toMenu li {
-    margin-top: 27px;
-    margin-right: 33px;
+  margin-top: 27px;
+  margin-right: 33px;
 }
+
 .toMenu a {
   display: block;
   padding: 2px;
   font-size: 17px;
   color: white;
 }
-.toMenu a:hover {background: #ADC0CE}
+
+.toMenu a:hover {
+  background: #ADC0CE
+}
 
 li#NameSite {
   margin-top: 26px;
@@ -65,31 +72,33 @@ li#NameSite {
   color: white;
   font-size: 25px;
 }
+
 .mainDiv {
-  background-color: rgb(41,96,107);
+  background-color: rgb(41, 96, 107);
   background-size: cover;
   background-position: center center;
   width: 1920px;
   height: 100%;
 }
-.underTheMenu{
+
+.underTheMenu {
   width: 100%;
   height: 600px;
-  background-color: rgb(36,89,99)
+  background-color: rgb(36, 89, 99)
 }
-.ImgGirl{
+
+.ImgGirl {
   background-image: url(../img/Girl.png);
-  width: 1820px;
+  width: 1920px;
   height: 600px;
 }
 
-.elForBanner
-{
-  margin-top:138px;
-  margin-left:506px;
-  width:50%;
-  height:195px;
-  color:black;
+.elForBanner {
+  margin-top: 138px;
+  margin-left: 506px;
+  width: 50%;
+  height: 195px;
+  color: black;
 }
 
 .bannerTextOne {
@@ -99,6 +108,7 @@ li#NameSite {
   font-size: 41px;
   letter-spacing: 5px;
 }
+
 .bannerTextTwo {
   text-align: center;
   margin-top: 17px;
@@ -108,7 +118,7 @@ li#NameSite {
 }
 
 .imageReady {
-  font-family: Fjalla One,"Simpson",Tahoma;
+  font-family: Fjalla One, "Simpson", Tahoma;
   background-image: url(../img/btnReady.png);
   background-size: cover;
   width: 150px;
@@ -117,12 +127,11 @@ li#NameSite {
   margin-top: 18px;
 }
 
-
-#linkReadMoreId{
-  color:white;
-
+#linkReadMoreId {
+  color: white;
 }
-.linkReadMore:visited{
+
+.linkReadMore:visited {
   color: white;
 }
 
@@ -133,6 +142,7 @@ li#NameSite {
   margin-top: 75px;
   margin-left: 483px;
 }
+
 .secondBannerTextMainWinow {
   font-size: 21px;
   color: rgb(255, 255, 255);
@@ -140,6 +150,7 @@ li#NameSite {
   margin-top: 10px;
   margin-left: 387px;
 }
+
 .letterBlock {
   width: 1170px;
   height: 600px;
@@ -147,19 +158,23 @@ li#NameSite {
   display: flex;
   align-items: center;
 }
-.letterImg{
+
+.letterImg {
   padding-left: 2px;
   padding-top: 3px;
 }
+
 .column {
-  flex-direction:column;
+  flex-direction: column;
 }
+
 .bannerTextForLetterBlock {
   font-size: 29px;
   color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 27px;
 }
+
 .line {
   margin-top: 11px;
   width: 510px;
@@ -167,10 +182,11 @@ li#NameSite {
   display: flex;
   justify-content: space-between;
 }
-.lineBorder{
+
+.lineBorder {
   width: 80px;
-  height:13px;
-  border-bottom:1px solid rgb(56, 125, 137);
+  height: 13px;
+  border-bottom: 1px solid rgb(56, 125, 137);
 }
 
 .lineWithBannerText {
@@ -180,12 +196,14 @@ li#NameSite {
   color: white;
   text-align: center;
 }
-.InputBlocks{
+
+.InputBlocks {
   margin-top: 43px;
   width: 570px;
   height: 45px;
   display: flex;
 }
+
 .inputBlock {
   width: 270px;
   height: 46px;
@@ -194,13 +212,15 @@ li#NameSite {
   color: white;
   font-size: 20px;
 }
+
 .space-between {
   justify-content: space-between;
 }
-.textAreaBlock
-{
+
+.textAreaBlock {
   margin-top: 31px;
 }
+
 .textArea {
   resize: none;
   width: 570px;
@@ -210,57 +230,65 @@ li#NameSite {
   color: white;
   font-size: 20px;
 }
-.imageSubmit{
+
+.imageSubmit {
   background-image: url(../img/border_green_aligned.png);
   background-size: cover;
-  width:109px;
-  height:50px;
+  width: 109px;
+  height: 50px;
   margin-top: 28px;
   color: white;
 }
-.linkDivSubmit{
-padding-top: 12px;
-padding-right: 1px;
-text-align: center;
-font-size: 14px;
+
+.linkDivSubmit {
+  padding-top: 12px;
+  padding-right: 1px;
+  text-align: center;
+  font-size: 14px;
 }
-#linkReadMoreAvatarIdFour{
+
+#linkReadMoreAvatarIdFour {
   color: white;
 }
-.linkSubmit:visited{
+
+.linkSubmit:visited {
   color: white;
 }
-.fourColorMainBlock{
+
+.fourColorMainBlock {
   position: absolute;
-  width:1170px;
-  height:672px;
-  margin-left:375px;
+  width: 1170px;
+  height: 672px;
+  margin-left: 375px;
   margin-top: -79px;
-  background-color:white;
-  display:flex;
+  background-color: white;
+  display: flex;
 }
 
 .wrap {
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
+
 .firstColorBlock {
   background-color: rgb(232, 76, 61);
   width: 585px;
   height: 336px;
 }
-.secondColorBlock{
+
+.secondColorBlock {
   background-color: rgb(253, 189, 31);
   width: 585px;
   height: 336px;
 }
 
-.thirdColorBlock{
+.thirdColorBlock {
   background-color: rgb(27, 188, 155);
   width: 585px;
   height: 336px;
 }
-.fourthColorBlock{
+
+.fourthColorBlock {
   background-color: rgb(155, 88, 181);
   width: 585px;
   height: 336px;
@@ -272,9 +300,10 @@ font-size: 14px;
   text-align: center;
   margin-bottom: 6px;
 }
+
 .bannerTextTwoForColor {
   font-size: 16px;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
   color: rgb(255, 255, 255);
   margin-right: 13px;
   text-align: center;
@@ -282,30 +311,33 @@ font-size: 14px;
 }
 
 .bannerTextTwoForColor p {
-  margin-top: 0px; 
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.Img{
+.Img {
   margin-left: 243px;
   margin-top: 58px;
   margin-bottom: 25px;
 }
-.footerBlock{
-  margin-top:1974px;
+
+.footerBlock {
+  margin-top: 1974px;
   width: 1920px;
   height: 190px;
   background-color: rgb(36, 89, 99);
   position: absolute;
 }
-.blockIndo{
+
+.blockIndo {
   display: flex;
-  align-items:center;
+  align-items: center;
   width: 360px;
   height: 35px;
   margin-top: 40px;
   margin-left: 775px;
 }
+
 .space-between {
   justify-content: space-between;
 }
@@ -313,7 +345,7 @@ font-size: 14px;
 .info {
   padding-top: 10px;
   font-size: 15px;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
   color: rgb(255, 255, 255);
 }
 
@@ -324,23 +356,24 @@ font-size: 14px;
 }
 
 .lineBorderFotter {
-  
   width: 284px;
   height: 28px;
   border-bottom: 1px solid rgb(56, 125, 137);
 }
+
 #infoSiteLink {
   color: rgb(253, 189, 31);
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
 }
 
 #infoSiteLinkFive {
   color: white;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
 }
+
 #infoSiteLinkSix {
   color: white;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
 }
 
 .infoSite {
@@ -348,21 +381,23 @@ font-size: 14px;
   margin-left: 515px;
   width: 910px;
   font-size: 16px;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
   color: rgb(255, 255, 255);
 }
-.blockFaceDescription{
-  width:1170px;
-  height:494px;
+
+.blockFaceDescription {
+  width: 1170px;
+  height: 494px;
   margin-top: 65px;
-  display:flex;
+  display: flex;
 }
 
 .wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.blockFace{
+
+.blockFace {
   background-color: rgb(36, 89, 99);
   width: 370px;
   height: 490px;
@@ -371,51 +406,58 @@ font-size: 14px;
 .space-between {
   justify-content: space-between;
 }
-.borderRed{
+
+.borderRed {
   border-top: 7px solid rgb(232, 76, 61);
 }
-.borderYellow{
+
+.borderYellow {
   border-top: 7px solid rgb(253, 189, 31);
 }
-.borderGreen{
+
+.borderGreen {
   border-top: 7px solid rgb(27, 188, 155);
 }
-.ImgFace{
+
+.ImgFace {
   margin-left: 95px;
   margin-top: 44px;
   margin-bottom: 31px;
 }
+
 .bannerTextForBlockFace {
   font-size: 16px;
-  font-family: Sourcesanspro,"Simpson",Tahoma;
+  font-family: Sourcesanspro, "Simpson", Tahoma;
   line-height: 1.625;
   text-align: center;
   color: rgb(118, 178, 190);
 }
 
 .bannerTextForBlockFace p {
-  margin-top: 0px; 
-  margin-bottom: 0px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.imageReadyForFirstAvatar{
+.imageReadyForFirstAvatar {
   background-size: cover;
-  width:102px;
-  height:46px;
+  width: 102px;
+  height: 46px;
   color: white;
-  margin-top:32px;
+  margin-top: 32px;
   margin-left: 138px;
 }
-.readyRed{
+
+.readyRed {
   background-image: url(../img/border_red.png);
 }
-.readyYellow{
+
+.readyYellow {
   background-image: url(../img/border_yellow.png);
 }
-.readyGreen{
+
+.readyGreen {
   background-image: url(../img/border_green.png);
 }
-
 
 .buttonSubmitHeader {
   font-size: 17px;
@@ -452,16 +494,41 @@ font-size: 14px;
   border: none;
 }
 
-.redForButton{
+.redForButton {
   background-color: rgb(232, 76, 61);
 }
-.yellowForButton{
+
+.yellowForButton {
   background-color: rgb(253, 189, 31);
 }
-.lightGreenForButton{
+
+.lightGreenForButton {
   background-color: rgb(27, 188, 155);
 }
 
-.darkGreenForButton{
+.darkGreenForButton {
   background-color: rgb(36, 89, 99);
+}
+
+@media screen and (min-device-width: 1600px) {
+  .mainDiv {
+    width: 1600px;
+  }
+}
+
+@media screen and (device-width: 1280px) {
+  .mainDiv {
+    width: 1280px;
+  }
+}
+
+@media screen and (device-width: 1024px) {
+  .mainDiv {
+    width: 1024px;
+  }
+}
+@media screen and (max-device-width: 375px) {
+  .mainDiv {
+    width: 375px;
+  }
 }
