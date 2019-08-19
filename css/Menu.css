@@ -6,13 +6,15 @@
 }
 
 @font-face {
-    font-family: Sourcesanspro;
-    src: url(..//fonts/Sourcesanspro.ttf)
+  font-family: Sourcesanspro;
+  src: url(..//fonts/Sourcesanspro.ttf)
 }
 
 
-body {margin:0;
-  font-family: Fjalla One,"Simpson",Tahoma;
+body {
+    margin: 0;
+    font-family: Fjalla One,"Simpson",Tahoma;
+    background-color: rgb(41,96,107);
 }
 ul {
   list-style: none;
@@ -33,7 +35,7 @@ nav {
 }
 
 button {
-    font-family: Fjalla One,"Simpson",Tahoma;
+  font-family: Fjalla One,"Simpson",Tahoma;
 }
 
 .toMenu ul {
@@ -68,7 +70,7 @@ li#NameSite {
   background-size: cover;
   background-position: center center;
   width: 1920px;
-  height: 2770px;
+  height: 100%;
 }
 .underTheMenu{
   width: 100%;
