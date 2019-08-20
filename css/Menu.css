@@ -15,9 +15,8 @@ body {
 }
 
 ul {
+  margin: auto;
   list-style: none;
-  margin-left: 376px;
-  margin-right: auto;
   width: 1168px;
   height: 78px;
 }
@@ -35,6 +34,7 @@ button {
 }
 
 .toMenu {
+  width: 100%;
   display: flex;
   align-items: center;
   height: 78px;
@@ -75,8 +75,6 @@ li#NameSite {
 
 .mainDiv {
   background-color: rgb(41, 96, 107);
-  background-size: cover;
-  background-position: center center;
   width: 1920px;
   height: 100%;
 }
@@ -88,8 +86,11 @@ li#NameSite {
 }
 
 .ImgGirl {
+  background-size: cover;
+  background-attachment: local;
+  background-position: center center;
   background-image: url(../img/Girl.png);
-  width: 1920px;
+  width: 101%;
   height: 600px;
 }
 
@@ -254,18 +255,20 @@ li#NameSite {
 .linkSubmit:visited {
   color: white;
 }
-
-.fourColorMainBlock {
+.bigBlockWithChilds{
   position: absolute;
-  width: 1170px;
-  height: 672px;
-  margin-left: 375px;
-  margin-top: -79px;
-  background-color: white;
+  width: 100%;
   display: flex;
+  justify-content: center;
 }
 
-.wrap {
+.fourColorMainBlock {
+  width: 1170px;
+  height: 672px;
+  background-color: white;
+  display: flex;
+  margin-top: -80px;
+  margin-left: 18px;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -323,23 +326,20 @@ li#NameSite {
 
 .footerBlock {
   margin-top: 1974px;
-  width: 1920px;
+  width: 100%;
   height: 190px;
   background-color: rgb(36, 89, 99);
-  position: absolute;
+  display: flex;
+  align-items: center;
 }
 
 .blockIndo {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
   width: 360px;
   height: 35px;
   margin-top: 40px;
-  margin-left: 775px;
-}
-
-.space-between {
-  justify-content: space-between;
 }
 
 .info {
@@ -377,9 +377,9 @@ li#NameSite {
 }
 
 .infoSite {
+  text-align: center;
   margin-top: 33px;
-  margin-left: 515px;
-  width: 910px;
+  width: 100%;
   font-size: 16px;
   font-family: Sourcesanspro, "Simpson", Tahoma;
   color: rgb(255, 255, 255);
@@ -390,21 +390,15 @@ li#NameSite {
   height: 494px;
   margin-top: 65px;
   display: flex;
-}
-
-.wrap {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .blockFace {
   background-color: rgb(36, 89, 99);
   width: 370px;
   height: 490px;
-}
-
-.space-between {
-  justify-content: space-between;
 }
 
 .borderRed {
@@ -510,25 +504,63 @@ li#NameSite {
   background-color: rgb(36, 89, 99);
 }
 
-@media screen and (min-device-width: 1600px) {
-  .mainDiv {
-    width: 1600px;
+@media screen and (min-device-width: 1190px) {
+.mainDiv {
+    width: 100%;
   }
 }
 
-@media screen and (device-width: 1280px) {
-  .mainDiv {
-    width: 1100px;
+@media screen and (max-width: 1190px) {
+.mainDiv {
+    width: 100%;
   }
-}
+.fourColorMainBlock{
+    width: 585px;
+    height: 3800px;
+    background-color: white;
+    display: flex;
+    margin-top: -80px;
+    margin-left: 18px;
+    flex-direction: column;
+    background-color: rgb(41, 96, 107)
+  }
+.footerBlock{
+    margin-top: 3800px;
+    width: 100%;
+    height: 190px;
+    background-color: rgb(36, 89, 99);
+    display: flex;
+    align-items: center;
+  }
 
-@media screen and (device-width: 1024px) {
-  .mainDiv {
-    width: 980px;
+.blockFaceDescription {
+    width: 100%;
+    height: 1500px;
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-}
-@media screen and (device-width: 375px) {
-  .mainDiv {
-    width: 375px;
+
+.bannerTextMainWinow {
+    margin-left: 0px;
+ }
+.secondBannerTextMainWinow {
+    margin-left: 0px;
+  }
+.letterBlock {
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+  }
+li#NameSite {
+    margin-top: 22px;;
+    padding-right: 0px;
+    width: 100px;
+    }
+.toMenu ul {
+    justify-content: center;
   }
 }
