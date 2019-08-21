@@ -504,13 +504,13 @@ li#NameSite {
   background-color: rgb(36, 89, 99);
 }
 
-@media screen and (min-width: 1190px) {
+@media screen and (min-width: 1206px) {
 .mainDiv {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 1189px) {
+@media screen and (max-width: 1205px) {
 .mainDiv {
     width: 100%;
   }
