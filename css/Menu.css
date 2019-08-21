@@ -504,7 +504,7 @@ li#NameSite {
   background-color: rgb(36, 89, 99);
 }
 
-@media screen and (min-device-width: 1190px) {
+@media screen and (min-width: 1190px) {
 .mainDiv {
     width: 100%;
   }
